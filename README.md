@@ -42,7 +42,6 @@ Her proje tipik olarak Visual Studio ile açılıp çalıştırılabilir durumda
 
 - Projeler kişisel öğrenim amaçlı yapılmıştır.  
 - İstersen katkı yapabilirsin; fork / pull request’ler değerlidir.  
-- Lisans: Açık Kaynak / CC-BY tarzı izin verilebilir — senin tercihine bağlı.
 
 ---
 
