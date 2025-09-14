@@ -1,20 +1,53 @@
-# Portfolio Assignment - C# Projects
+# C# & .NET Framework Projects  
+**Repo:** orhancigdem/C-and-.NET-Framework
 
-This repository contains various projects and exercises related to C# and .NET development. Each project demonstrates different concepts such as object-oriented programming, interfaces, operator overloading, and polymorphism.
+Bu repoda C# ve .NET Framework kullanılarak yapılmış farklı projeler bulunuyor. Her biri, temel programlama kavramlarını ve .NET ekosistemini daha iyi anlamak için ideal.
 
-## Project Files
+---
 
-### 1. Polymorphism.cs
-- **Description**: This project demonstrates the concept of polymorphism in C#. The `Employee` class implements the `IQuittable` interface, which includes a `Quit()` method. In the main program, polymorphism is demonstrated by treating an `Employee` object as an `IQuittable` object and calling the `Quit()` method.
-- **Key Concepts**: Polymorphism, Interfaces, and Method Overriding.
-- **Repository**: [Polymorphism Assignment](https://github.com/ugur-saganci/Polymorphism-Assignment-Submission)
+## İçindekiler
 
-### 2. Operator Assignment.cs
-- **Description**: This project focuses on operator overloading. The `Employee` class has overloaded `==` and `!=` operators to compare two `Employee` objects based on their `Id`. It also overrides the `Equals` and `GetHashCode` methods to ensure proper comparison behavior.
-- **Key Concepts**: Operator Overloading, Overriding Methods.
-- **Repository**: [Operators Assignment](https://github.com/ugur-saganci/Operators-Assignment-Submission)
+| Proje | Açıklama |
+|---|---|
+| [ASP.NET MVC + Entity Framework](https://github.com/orhancigdem/C-and-.NET-Framework/tree/main/ASP.NET-MVC-Entity-Framework) | MVC mimarisi ile web uygulaması, veri işlemleri için Entity Framework kullanıyor. |
+| [Final Assignment Submission](https://github.com/orhancigdem/C-and-.NET-Framework/tree/main/Final-Assignment-Submission) | Dersin son ödevi; öğrendiğin tüm kavramları birleştirdiğin büyük proje. |
+| [Method & Class Assignment Submission](https://github.com/orhancigdem/C-and-.NET-Framework/tree/main/Method-Class-Assignment-Submission) | Method ve Class yapılarının kullanımını pratik örneklerle gösterir. |
+| [Operators Assignment Submission](https://github.com/orhancigdem/C-and-.NET-Framework/tree/main/Operators-Assignment-Submission) | C# operatörleriyle ilgili alıştırmalar ve uygulamalar. |
+| [Polymorphism Assignment Submission](https://github.com/orhancigdem/C-and-.NET-Framework/tree/main/Polymorphism-Assignment-Submission) | Nesne yönelimli programlamanın “polymorphism” kavramını uygulamalı olarak gösteren ödev. |
+| [Portfolio Assignment Submission](https://github.com/orhancigdem/C-and-.NET-Framework/tree/main/Portfolio-Assignment-Submission) | Kişisel portfolyo hazırlama; projeleri ve yeteneklerini sergileme amaçlı. |
 
-## How to Run
-1. Clone the repository.
-2. Open the solution in Visual Studio.
-3. Build and run each project individually to see the output.
+---
+
+## Nasıl Kurulur & Çalıştırılır
+
+Her proje tipik olarak Visual Studio ile açılıp çalıştırılabilir durumda:
+
+1. İlgili klasörü Visual Studio’da açın (`.sln` dosyasını kullanarak).  
+2. NuGet paketlerini restore edin (“Restore NuGet Packages”).  
+3. Projeyi build edin (Build → Build Solution).  
+4. Eğer web uygulamasıysa, IIS Express ya da benzeri bir local host üzerinde çalıştırın.
+
+---
+
+## Teknolojiler
+
+- C# (.NET Framework)  
+- ASP.NET MVC  
+- Entity Framework  
+- Temel OOP kavramları: sınıflar (classes), metotlar (methods), polymorphism, operatör kullanımları vb.
+
+---
+
+## Katkılar & Lisans
+
+- Projeler kişisel öğrenim amaçlı yapılmıştır.  
+- İstersen katkı yapabilirsin; fork / pull request’ler değerlidir.  
+- Lisans: Açık Kaynak / CC-BY tarzı izin verilebilir — senin tercihine bağlı.
+
+---
+
+## İletişim
+
+Herhangi bir sorunda ya da öneride bana ulaşabilirsin:  
+**orhancigdem** üzerinden GitHub’da ya da e-posta ile.
+
