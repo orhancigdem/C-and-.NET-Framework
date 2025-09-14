@@ -17,13 +17,13 @@ namespace CodeFirstDemo
             var studentInfos = new List<StudentInfo>
             {
                 new StudentInfo {
-                    Name = "Ahmet Yılmaz",
-                    DateOfBirth = new DateTime(2002, 5, 10),
-                    Height = 178.4m,
-                    Weight = 72.5f,
-                    Department = "Bilgisayar Mühendisliği",
-                    Section = "Yapay Zeka",
-                    Courses = new List<string> { "Veri Yapıları", "Makine Öğrenmesi", "Veritabanı Sistemleri" }
+                    Name = "Zeynep Kaya",
+                    DateOfBirth = new DateTime(2001, 3, 15),
+                    Height = 165.2m,
+                    Weight = 58.7f,
+                    Department = "Yazılım Mühendisliği",
+                    Section = "Web Geliştirme",
+                    Courses = new List<string> { "ASP.NET Core", "React.js", "MongoDB", "Docker" }
                 }
             };
             
